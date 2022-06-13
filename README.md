@@ -5,7 +5,9 @@ Singapore Public Transit System.
 
 ### Installation
 
-...
+```shell
+npm install simplygo-node
+```
 
 ### Usage
 
