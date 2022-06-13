@@ -9,14 +9,8 @@ export interface ResponseDto<T> {
 export interface GetTransactionsRequestDto {
     start_date: string;
     end_date: string;
-    user_sess_key: string;
     card_id: string;
 }
-
-export interface GetCardListRequestDto {
-    user_sess_key: string;
-}
-
 
 export interface TransactionHistoryTrip {
     Uid?: any;
@@ -96,6 +90,7 @@ export interface LoginResponseData {
 }
 
 export type LoginResponseDto = ResponseDto<LoginResponseData>;
+export type LogoutResponseDto = ResponseDto<boolean>;
 
 export interface AccountStatus {
     Status: string;
