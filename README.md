@@ -1,5 +1,7 @@
 # simplygo-node
 
+<span class="badge-npmversion"><a href="https://npmjs.org/package/simplygo-node" title="View this project on NPM"><img src="https://img.shields.io/npm/v/simplygo-node.svg" alt="NPM version" /></a></span>
+
 API wrapper to access TransitLink SimplyGo Transactions of the
 Singapore Public Transit System.
 
@@ -10,6 +12,8 @@ npm install simplygo-node
 ```
 
 ### Usage
+
+See [example.ts](https://github.com/aniruddha-adhikary/simplygo-node/blob/main/src/example.ts).
 
 ```typescript
 import {SimplyGoApi} from "simplygo-node";
